@@ -45,7 +45,7 @@ for(i = 0;i < numberOfDrumButtons;i++){
 for(i = 0;i < numberOfDrumButtons;i++){
     document.querySelectorAll(".drum")[6].addEventListener("click",function()
     {
-        var audio = new Audio("./images/homy.mp3");
+        var audio = new Audio("./images/Homy.mp3");
         audio.play();
     });
 }
