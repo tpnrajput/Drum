@@ -1,0 +1,78 @@
+#title {
+    font-size: 6rem;
+    color: white;
+    text-shadow: 4px 0 rgb(241, 124, 144);
+    font-family: serif;
+
+}
+
+body {
+    background-color: rgb(4, 4, 93);
+}
+
+footer {
+    font-size: 1rem;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 0 darkblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+.set {
+    display: flex;
+    justify-content: center;
+    margin: 134px;
+    padding: 21px;
+    font-size: 14px;
+
+}
+
+footer {
+    text-align: center;
+    margin: 100px;
+    font-size: 1.3rem;
+    text-shadow: 1.8px 0 rgb(8, 205, 205);
+}
+
+button {
+    margin: 18px;
+    width: 140px;
+    height: 140px;
+    border: 11px solid rgb(41, 40, 40);
+    border-radius: 18px;
+}
+
+.drum {
+    font-size: 4.3rem;
+    color: rgb(237, 59, 119);
+    text-shadow: 2px 0 rgb(8, 200, 200);
+    padding: 4px;
+}
+button:hover{
+    background-color: rgb(201, 194, 194);
+}
+
+.w{
+    background-image: url(./images/tom1.png);
+}
+.a{
+    background-image: url(./images/tom3.png);
+}
+.s{
+    background-image: url(./images/tom4.png);
+}
+.d{
+    background-image: url(./images/tom4.png);
+}
+.j{
+    background-image: url(./images/kick.png);
+}
+.k{
+    background-image: url(./images/crash.png);
+}
+.l{
+    background-image: url(./images/snare.png);
+}
